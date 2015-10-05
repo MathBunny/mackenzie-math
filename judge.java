@@ -26,7 +26,7 @@ class Person implements Comparable<Person>{
 	}
 	
 	public int compareTo(Person o){
-		if (o.getScore() <= score)
+		if (o.getScore() < score)
 			return 0;
 		return 1;
 	}
@@ -49,10 +49,12 @@ class Main{
 				String input = in.readLine();
 				if (input == null || input.equals(""))
 					break;
-				StringTokenizer st = new StringTokenizer(in.readLine());
+				StringTokenizer st = new StringTokenizer(input);
 				people.add(new Person(st.nextToken(), Integer.parseInt(st.nextToken())));
 			}
+			System.out.println("SIZE: " + people.size());
 			Collections.sort(people);
+			System.out.println("SIZE: " + people.size());
 			for(int i = 0; i < people.size(); i++){
 				System.out.println("<tr><td><p><center>" + people.get(i).getName() + "</center></p></td><td><center>" + people.get(i).getScore() + "</center></td></tr>");	
 			}
