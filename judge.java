@@ -52,9 +52,7 @@ class Main{
 				StringTokenizer st = new StringTokenizer(input);
 				people.add(new Person(st.nextToken(), Integer.parseInt(st.nextToken())));
 			}
-			System.out.println("SIZE: " + people.size());
 			Collections.sort(people);
-			System.out.println("SIZE: " + people.size());
 			for(int i = 0; i < people.size(); i++){
 				System.out.println("<tr><td><p><center>" + people.get(i).getName() + "</center></p></td><td><center>" + people.get(i).getScore() + "</center></td></tr>");	
 			}
