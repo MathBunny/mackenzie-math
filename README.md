@@ -12,8 +12,9 @@
 * Print the permission slip, and get it signed by the respective teachers
 * Do not forget to get the teacher signatures and indicate registration ID #!
 
-#####Website Link (Math): [tinyurl.com/mackenzie-math](tinyurl.com/math-mackenzie)
-#####Website Link (Chess): [tinyurl.com/mackenzie-chess](tinyurl.com/mackenzie-chess)
+###Website Link 
+* Math: [tinyurl.com/mackenzie-math](tinyurl.com/math-mackenzie)
+* Chess: [tinyurl.com/mackenzie-chess](tinyurl.com/mackenzie-chess)
 
 #### For more information, contact developer Horatiu Lazu at: horatiulazu@gmail.com
 
