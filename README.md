@@ -1,6 +1,6 @@
 # Mackenzie Math Club 2015/2016
-##Website for the WL Mackenzie Math Club.
-###The purpose of the math club website is to provide the ability to:
+##Website for the WL Mackenzie Math Club & Chess Club.
+###Purpose of Math Club Website is to:
 * Inform members of math contest dates
 * Keep score of points during math club
 * Provide the ability for students to push solutions for points
