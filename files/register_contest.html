@@ -36,25 +36,23 @@ table.gradienttable td {
 	background: -ms-linear-gradient(top,  #ebecda 0%,#e0e0c6 40%,#ceceb7 100%);
 	background: linear-gradient(to bottom,  #ebecda 0%,#e0e0c6 40%,#ceceb7 100%);
 	border: 1px solid #999999;
-	font-size: 17px;
+	font-size: 15px;
 }
 table.gradienttable th p{
 	margin:0px;
-	padding:10px;
+	padding:8px;
 	border-top: 1px solid #eefafc;
 	border-bottom:0px;
 	border-left: 1px solid #eefafc;
 	border-right:0px;
 }
-
 table.gradienttable td p{
 	margin:0px;
-	padding:2px;
+	padding:8px;
 	border-top: 1px solid #ffdec;
 	border-bottom:0px;
 	border-left: 1px solid #fcfdec;;
 	border-right:0px;
-	font-size: 20px;
 }
 
 
@@ -64,6 +62,10 @@ table, th, td {
 }
 th, td {
     padding: 3px;
+}
+h1{
+	font-family: 'Helvetica';
+
 }
 h2{
 	font-family: 'Helvetica';
@@ -79,33 +81,43 @@ h3 {
     font-size: 19px;
     font-weight: 200;
     line-height:0px;
-    color:white; 
+    color:white;
 }
 h3.normal{
 	font-style: normal;
 	font-weight: 10px;;
 }
-p{
-	font-family: 'Helvetica';
+h4 {
+    font-family: 'Helvetica';
     font-style: normal;
     font-size: 19px;
     font-weight: 200;
-    color:black;
-    padding:9px;
+    line-height:0px;
+    color:silver;
 }
 h4{
+	
 	font-family: 'Helvetica', 'Arial', sans-serif;
     font-style: normal;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 100;
-    color:white;
+	
+}
+h5{
+	
+	font-family: 'Helvetica', 'Arial', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 100;
+	color:white;
 }
 body { 
-  background: url(/images/background_blue.jpg) no-repeat center center fixed; 
+  background: url(../images/background_blue.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding:0px;
 }
 
 .tftable {color:#333333;width:100%;border-width: 1px solid;border-color: #729ea5;}
@@ -130,79 +142,27 @@ body {
 	
 <div id='cssmenu'>
 <ul>
-   <li><a href='index.html'><span>Home</span></a></li>
-   <li class='active'><a href='points_leaderboard.html'><span>Points / Leaderboard</span></a></li>
+   <li><a href='../index.html'><span>Home</span></a></li>
+   <li><a href='points_leaderboard.html'><span>Points / Leaderboard</span></a></li>
    <li><a href='solve_problem.html'><span>Solve Problem</span></a></li>
    <li><a href='problem_solutions.html'><span>Weekly Problems</span></a></li>
-   <li><a href='register_contest.html'><span>Register for Contest</span></a></li>
+   <li class='active'><a href='register_contest.html'><span>Register for Contest</span></a></li>
    <li><a href='contact.html'><span>Contact</span></a></li>
 </ul>
 </div>
 
 <center>
-	<h2> <u>Math Club Points Leaderboard </u></h2>
+	<h2> <u> Math Contest Registration System </u></h2>
 	<h3>
-	<center> <h3> Current scores are below: </h3>
-<iframe height = 900 width = 90% src="https://docs.google.com/spreadsheets/d/1fCF4n7BLbfzyd1CBzE_1GQ1lp158ITycmT-W0CUQoRM/pubhtml?gid=1166599862&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
-	<table class="gradienttable" width="50%">
-<tr>
-<!--
-	<th><p>Name:</p></th><th><p>Score:</p></th>
-</tr>
-<tr><td><p><center>Lisa</center></p></td><td><center>10</center></td></tr>
-<tr><td><p><center>Rachael</center></p></td><td><center>10</center></td></tr>
-<tr><td><p><center>Beatrice</center></p></td><td><center>10</center></td></tr>
-<tr><td><p><center>Firuza</center></p></td><td><center>10</center></td></tr>
-<tr><td><p><center>Lev R.</center></p></td><td><center>10</center></td></tr>
-<tr><td><p><center>Daniel S</center></p></td><td><center>7</center></td></tr>
-<tr><td><p><center>John Li</center></p></td><td><center>6</center></td></tr>
-<tr><td><p><center>Justin P</center></p></td><td><center>6</center></td></tr>
-<tr><td><p><center>Clark</center></p></td><td><center>6</center></td></tr>
-<tr><td><p><center>Devi</center></p></td><td><center>6</center></td></tr>
-<tr><td><p><center>Julie</center></p></td><td><center>6</center></td></tr>
-<tr><td><p><center>Vevina</center></p></td><td><center>6</center></td></tr>
-<tr><td><p><center>Jacqueline</center></p></td><td><center>6</center></td></tr>
-<tr><td><p><center>Sepi</center></p></td><td><center>6</center></td></tr>
-<tr><td><p><center>Michael W</center></p></td><td><center>4</center></td></tr>
-<tr><td><p><center>Daniel L</center></p></td><td><center>4</center></td></tr>
-<tr><td><p><center>Sepehr</center></p></td><td><center>4</center></td></tr>
-<tr><td><p><center>Ryan Yu</center></p></td><td><center>4</center></td></tr>
-<tr><td><p><center>Samar</center></p></td><td><center>3</center></td></tr>
-<tr><td><p><center>Shannon</center></p></td><td><center>3</center></td></tr>
-<tr><td><p><center>Jonathan</center></p></td><td><center>1</center></td></tr>
-<tr><td><p><center>Daniel H</center></p></td><td><center>1</center></td></tr>
-<!--
-
-LevR.: 10
-Firuza: 10
-Beatrice: 10
-Rachael: 10
-Lisa: 10
-Daniel: 7
-Sepi: 6
-Jacqueline: 6
-Vevina: 6
-Julie: 6
-Devi: 6
-Clark: 6
-JustinP: 6
-JohnLi: 6
-RyanYu: 4
-Sepehr: 4
-DanielLJ: 4
-MichaelW: 4
-Shannon: 3
-Samar: 3
-Daniel: 1
-Jonathan: 1-->
-
-</table>
-
-</table>
+	<center> <h3> Registration is now open for: <b>Fryer</b> <b>Galois</b> <strong>Hypatia</strong> and <strong>Euclid</strong>! </h3>
+	 
+<iframe src="https://docs.google.com/forms/d/1GpxTmjoVVE1S2FoD82iBXXj6Ub4ynBPwhJnaNXritz8/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>	
+	<h4> Registration for AMC is now <u>CLOSED</u>. Check your email for permission form.</h4>
+	<!--<h5> <strong> Lastly, print and sign 'Permission Slip': </strong>  <a href ="http://math.mackenzie.paperplane.io/contestform.pdf" target="_blank"> Here. </a>
+	</h5> --> 
 
 	<hr>
-	<h4> Website Developed by: Horatiu Lazu </h4>
+	<h5> Website Developed by: Horatiu Lazu </h5>
 </center>
 	
 	<body background="background4.jpg">
