@@ -13,8 +13,8 @@
 * Do not forget to get the teacher signatures and indicate registration ID #!
 
 ####Website Link 
-* Math: [tinyurl.com/mackenzie-math](tinyurl.com/math-mackenzie)
-* Chess: [tinyurl.com/mackenzie-chess](tinyurl.com/mackenzie-chess)
+* Math: [tinyurl.com/mackenzie-math](http://www.tinyurl.com/math-mackenzie)
+* Chess: [tinyurl.com/mackenzie-chess](http://www.tinyurl.com/mackenzie-chess)
 
 ##### For more information, contact developer Horatiu Lazu at: horatiulazu@gmail.com
 
