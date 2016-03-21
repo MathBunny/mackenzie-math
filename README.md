@@ -17,4 +17,3 @@
 * Chess: [tinyurl.com/mackenzie-chess](http://www.tinyurl.com/mackenzie-chess)
 
 ##### For more information, contact developer Horatiu Lazu at: horatiulazu@gmail.com
-
