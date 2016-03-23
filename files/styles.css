@@ -1,4 +1,61 @@
 @import "http://fonts.googleapis.com/css?family=Open+Sans:700";
+h1{
+	font-family: 'Helvetica';
+
+}
+h2{
+	font-family: 'Helvetica';
+	font-size:30px;
+	font-weight:200;
+	padding:0px;
+	color:white;
+	
+}
+h3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 19px;
+    font-weight: 200;
+    line-height:0px;
+    color:white;
+}
+h3.normal{
+	font-style: normal;
+	font-weight: 10px;;
+}
+h4 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 19px;
+    font-weight: 200;
+    line-height:0px;
+    color:silver;
+}
+h4{
+	
+	font-family: 'Helvetica', 'Arial', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 100;
+	
+}
+h5{
+	
+	font-family: 'Helvetica', 'Arial', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 100;
+	color:white;
+}
+body { 
+  background: url(../images/background_blue.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:0px;
+}
+
 #cssmenu {
     background: #f96e5b;
     width: auto
@@ -121,60 +178,4 @@
     #cssmenu ul li a:before {
         display: none
     }
-}
-h1{
-	font-family: 'Helvetica';
-
-}
-h2{
-	font-family: 'Helvetica';
-	font-size:30px;
-	font-weight:200;
-	padding:0px;
-	color:white;
-	
-}
-h3 {
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-size: 19px;
-    font-weight: 200;
-    line-height:0px;
-    color:white;
-}
-h3.normal{
-	font-style: normal;
-	font-weight: 10px;;
-}
-h4 {
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-size: 19px;
-    font-weight: 200;
-    line-height:0px;
-    color:silver;
-}
-h4{
-	
-	font-family: 'Helvetica', 'Arial', sans-serif;
-    font-style: normal;
-    font-size: 15px;
-    font-weight: 100;
-	
-}
-h5{
-	
-	font-family: 'Helvetica', 'Arial', sans-serif;
-    font-style: normal;
-    font-size: 15px;
-    font-weight: 100;
-	color:white;
-}
-body { 
-  background: url(../images/background_blue.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding:0px;
 }

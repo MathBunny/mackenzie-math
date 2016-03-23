@@ -1,7 +1,8 @@
 import sys
 from array import array
-""" The purpose of this program is to ensure that everyone who registered has participated 
-Instructions: Simply write your name and then write your ID # """
+""" By: Horatiu Lazu
+	The purpose of this program is to ensure that everyone who registered has participated 
+	Instructions: Simply write your name and then write your ID # """
 
 names = []
 numbers = []
@@ -31,6 +32,7 @@ def getInput():
 	else:
 		return "x"
 
+#Output the final array of numbers and words
 def outputArr():
 	file = open("contest.txt", "w")
 	file.write("Math Contest Registration Confirmation System\n")
@@ -39,7 +41,8 @@ def outputArr():
 		file.write(str(numbers[x]))
 		file.write("\n")
 	file.close()
-	
+
+#This is the main program	
 while(True):
 	if (getInput() == "x"):
 		print "Done!"
