@@ -1,5 +1,5 @@
 # Mackenzie Math Club 2015/2016
-###Website for the WL Mackenzie Math Club & Chess Club!
+###Website for the WL Mackenzie Math Club!
 ####Purpose of Math Club Website is:
 * Inform members of math contest dates
 * Keep score of points during math club
@@ -14,6 +14,5 @@
 
 ####Website Link 
 * Math: [tinyurl.com/mackenzie-math](http://www.tinyurl.com/math-mackenzie)
-* Chess: [tinyurl.com/mackenzie-chess](http://www.tinyurl.com/mackenzie-chess)
 
 ##### For more information, contact developer Horatiu Lazu at: horatiulazu@gmail.com
