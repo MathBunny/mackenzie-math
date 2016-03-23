@@ -16,10 +16,10 @@ def clear():
 
 #Get the input from the user. x means stop!
 def getInput():
-	print "Please enter your name:"
+	print "Please enter your name:",
 	name = str(raw_input())
 	if name != "x":
-		print "Please enter your unique registration number:"
+		print "Please enter your unique registration number:",
 		num = input()
 		print "Thank you,",
 		print name,
@@ -33,14 +33,15 @@ def getInput():
 
 def outputArr():
 	file = open("contest.txt", "w")
-	file.write("Math Contest Registration!")
+	file.write("Math Contest Registration Confirmation System\n")
 	for x in range (len(names)):
 		file.write(names[x])
-		file.write(numbers[x])
+		file.write(str(numbers[x]))
+		file.write("\n")
 	file.close()
 	
 while(True):
 	if (getInput() == "x"):
-		print "worked"
+		print "Done!"
 		outputArr()
 		sys.exit()
