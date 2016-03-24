@@ -1,7 +1,6 @@
 import sys
 from array import array
-""" By: Horatiu Lazu
-	The purpose of this program is to ensure that everyone who registered has participated 
+""" The purpose of this program is to ensure that everyone who registered has participated 
 	Instructions: Simply write your name and then write your ID # """
 
 names = []
@@ -21,23 +20,35 @@ def getInput():
 	name = str(raw_input())
 	if name != "x":
 		print "Please enter your unique registration number:",
-		num = input()
+		try:
+			num = input()
+		except (RuntimeError, TypeError, NameError):
+			print "Error: Enter a valid number."
+			getInput()
+			return ""
 		print "Thank you,",
 		print name,
 		print "has successfully registered with #",
 		print num
 		names.append(name)
-		numbers.append(num)
+		try:
+			numbers.append(num)
+		except (RuntimeError, TypeError, NameError):
+			print "Error: Enter a number."
+			getInput()
+			
 		clear()
+		return ""
 	else:
 		return "x"
 
 #Output the final array of numbers and words
 def outputArr():
 	file = open("contest.txt", "w")
-	file.write("Math Contest Registration Confirmation System\n")
+	file.write("Math Contest Registration Confirmation System:\n")
 	for x in range (len(names)):
 		file.write(names[x])
+		file.write(" ")
 		file.write(str(numbers[x]))
 		file.write("\n")
 	file.close()

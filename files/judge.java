@@ -35,8 +35,18 @@ class Person implements Comparable<Person>{
 
 
 class Main{
+	final int CONSTANT_START = 200;
 	public static void main (String [] args){
 		new Main();
+	}
+	
+	public void sortOutput(){
+		try{
+			BufferdReader in = new BufferedReader(new FileReader("contest.txt"));
+		}
+		catch(IOException e){
+				
+		}	
 	}
 
 	public Main(){
