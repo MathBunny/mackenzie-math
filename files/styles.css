@@ -220,14 +220,16 @@ table.gradienttable th p{
     border-bottom:0px;
     border-left: 1px solid #eefafc;
     border-right:0px;
+    text-align: center;
 }
-table.gradienttable td p{
+table.gradienttable td{
     margin:0px;
-    padding:8px;
+    padding:10px;
     border-top: 1px solid #ffdec;
     border-bottom:0px;
     border-left: 1px solid #fcfdec;;
     border-right:0px;
+    text-align: center;
 }
 
 
