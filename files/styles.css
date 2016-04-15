@@ -1,7 +1,6 @@
 @import "http://fonts.googleapis.com/css?family=Open+Sans:700";
 h1{
 	font-family: 'Helvetica';
-
 }
 h2{
 	font-family: 'Helvetica';
@@ -9,7 +8,6 @@ h2{
 	font-weight:200;
 	padding:0px;
 	color:white;
-	
 }
 h3 {
     font-family: 'Helvetica';
@@ -37,7 +35,6 @@ h4{
     font-style: normal;
     font-size: 15px;
     font-weight: 100;
-	
 }
 h5{
 	
@@ -48,11 +45,19 @@ h5{
 	color:white;
 }
 body { 
-  background: url(../images/background_blue.jpg) no-repeat center center fixed; 
+  /*background: url(../images/background_blue.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
+  background: rgba(27,131,228,1);
+  background: -moz-linear-gradient(left, rgba(27,131,228,1) 0%, rgba(22,101,192,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(27,131,228,1)), color-stop(100%, rgba(22,101,192,1)));
+  background: -webkit-linear-gradient(left, rgba(27,131,228,1) 0%, rgba(22,101,192,1) 100%);
+  background: -o-linear-gradient(left, rgba(27,131,228,1) 0%, rgba(22,101,192,1) 100%);
+  background: -ms-linear-gradient(left, rgba(27,131,228,1) 0%, rgba(22,101,192,1) 100%);
+  background: linear-gradient(to right, rgba(27,131,228,1) 0%, rgba(22,101,192,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1b83e4', endColorstr='#1665c0', GradientType=1 );
   padding:0px;
 }
 
@@ -231,8 +236,6 @@ table.gradienttable td{
     border-right:0px;
     text-align: center;
 }
-
-
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
